@@ -291,7 +291,7 @@ Desarrollado por **Agustin Rivera, Alejo Guerra, Renata Gallucci, Sofia Power, C
 ## 📧 Contacto
 
 Para preguntas, sugerencias o reportar bugs:
-- Email: [tu_email@example.com](mailto:nextreadoficial@gmail.com)
+- Email: [tu_nextreadoficial@gmail.com](mailto:nextreadoficial@gmail.com)
 - GitHub: [@AlejoGuerraa](https://github.com/AlejoGuerraa)
 
 ---
