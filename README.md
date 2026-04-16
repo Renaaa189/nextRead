@@ -1,10 +1,16 @@
-# 📚 NextRead
 
-Una plataforma moderna y social para descubrir, compartir y conectar a través de libros. NextRead permite a los usuarios explorar un extenso catálogo de obras, dejar reseñas, dar likes, seguir a otros lectores y recibir notificaciones en tiempo real.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1b1b2f,100:16213e&height=200&section=header&text=NextRead&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Plataforma%20Social%20de%20Lectura%20y%20Reseñas&descAlignY=60&descSize=16" />
+</p>
+
+## Descripción:
+NextRead es una plataforma moderna y social para descubrir, compartir y conectar a través de libros. 
+
+Permite a los usuarios explorar un extenso catálogo de obras, dejar reseñas, dar likes, seguir a otros lectores y recibir notificaciones en tiempo real.
 
 ---
 
-## ✨ Características Principales
+## Características Principales
 
 ### 📖 Gestión de Libros
 - Catálogo extenso de libros con autores y géneros variados
@@ -52,41 +58,60 @@ Una plataforma moderna y social para descubrir, compartir y conectar a través d
 
 ---
 
-## 🛠️ Stack Tecnológico
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="25"> Tecnologías
 
-### Backend
-- **Node.js** + **Express.js** - Servidor web
-- **Sequelize** - ORM para gestión de base de datos
-- **MySQL** - Base de datos relacional
-- **JWT** - Autenticación y autorización
-- **bcrypt** - Encriptación de contraseñas
-- **Nodemailer** - Envío de emails
+<table align="center">
 
-### Frontend
-- **React 19** - Librería de interfaz de usuario
-- **Vite** - Build tool y dev server
-- **React Router 7** - Enrutamiento
-- **Axios** - Cliente HTTP
-- **Framer Motion** - Animaciones
-- **Lucide React** - Iconos
-- **CSS3** - Estilos personalizados
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td align="center"><b>Backend</b></td>
+    <td align="center"><b>Base de Datos</b></td>
+    <td align="center"><b>Diseño</b></td>
+  </tr>
 
----
+  <tr>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=html,react,vite,css" /><br>
+      <sub>HTML • React • Vite • CSS3 </sub>
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=js,nodejs,express,sequelize" /><br>
+      <sub>JavaScript • Node.js • Express.js • Sequelize </sub>
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=mysql" /><br>
+      <sub>MySQL</sub>
+    </td>
+    <td align="center">
+      <img src="https://skillicons.dev/icons?i=figma" /><br>
+      <sub>Figma</sub>
+    </td>
+  </tr>
 
-## 🚀 Instalación y Setup
+</table>
+<p align="center">
+  <sub>
+     Otras tecnologías
 
-### Requisitos Previos
+</p>
+
+<p align="center">
+  <sub>
+     Framer Motion • Lucide React • React Router • Axios • JWT • bcrypt • Canva • Axios 
+</p>
+
+## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="25"> Instalación  y Setup
+
+### Previa Instalación
 - Node.js (v16 o superior)
 - MySQL Server
 - Git
 
 ### Pasos de Instalación
 
-#### 1. Clonar el Repositorio
-```bash
-git clone https://github.com/AlejoGuerraa/nextRead.git
-cd nextRead
-```
+<a href="https://github.com/Renaaa189/TuBuffet" style="color:black;">
+1. Clonar el Repositorio
+</a> 
 
 #### 2. Configurar Backend
 ```bash
@@ -113,187 +138,36 @@ La aplicación estará disponible en `http://localhost:5173`
 
 ---
 
-## 📁 Estructura del Proyecto
+##  Nuestro equipo
 
-```
-nextRead/
-├── api/                          # Backend Express.js
-│   ├── config/
-│   │   └── db.js                # Configuración de base de datos
-│   ├── controller/              # Lógica de negocio
-│   │   ├── peticionesUsuario.js
-│   │   ├── peticionesLibros.js
-│   │   ├── busqueda.js
-│   │   ├── peticionesAdmin.js
-│   │   └── ...
-│   ├── middlewares/             # Middlewares de autenticación
-│   │   ├── isAuth.js
-│   │   └── isAdmin.js
-│   ├── models/                  # Modelos Sequelize
-│   │   ├── Usuario.js
-│   │   ├── Libro.js
-│   │   ├── Resena.js
-│   │   ├── ResenaLike.js
-│   │   └── ...
-│   ├── data/                    # Datos iniciales y seeders
-│   └── index.js                 # Punto de entrada
-│
-├── client/                       # Frontend React
-│   ├── public/
-│   │   ├── portadasLibros/     # Portadas de libros por autor
-│   │   ├── iconos/             # Avatares de usuarios
-│   │   └── banners/            # Banners de perfil
-│   ├── src/
-│   │   ├── components/         # Componentes React
-│   │   │   ├── acceso/         # Login/Register
-│   │   │   ├── notificaciones/ # Modal de notificaciones
-│   │   │   ├── perfil/         # Componentes de perfil
-│   │   │   ├── settings/       # Configuración
-│   │   │   ├── header.jsx      # Encabezado
-│   │   │   └── ...
-│   │   ├── pages/              # Páginas principales
-│   │   ├── pagescss/           # Estilos CSS
-│   │   ├── assets/             # Imágenes y assets
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── index.html
-│   ├── vite.config.js
-│   └── package.json
-│
-└── README.md
-```
+<p align="center">
+  <b>
+    <br>
+    Desarrollado por:  
+    <a href="https://github.com/AlejoGuerra" style="color: inherit; font-weight: bold;">Alejo Guerra</a>, 
+    <a href="https://github.com/Renaaa189" style="color: inherit; font-weight: bold;">Renata Gallucci</a>, 
+    <a href="https://github.com/Sofipow-007" style="color: inherit; font-weight: bold;">Sofia Power</a>, 
+    <a href="https://github.com/AgustinR55" style="color: inherit; font-weight: bold;">Agustin Rivera</a> y 
+    <a href="https://github.com/CarolinaMendez" style="color: inherit; font-weight: bold;">Carolina Mendez</a>
+  </b>
+</p>
 
----
 
-## 🔌 API Endpoints Principales
+## 📫 Contactanos 
 
-### Autenticación
-- `POST /nextread/register` - Registro de usuario
-- `POST /nextread/login` - Inicio de sesión
-- `POST /nextread/user/change-password` - Cambiar contraseña
+<p align="center">
 
-### Usuarios
-- `GET /nextread/user` - Obtener datos del usuario (requiere auth)
-- `GET /nextread/user/:id/seguidores` - Listar seguidores
-- `GET /nextread/user/:id/seguidos` - Listar seguidos
-- `POST /nextread/seguir/:targetId` - Seguir usuario
-- `POST /nextread/dejar-seguir/:targetId` - Dejar de seguir
+  <a href="mail:nextreadoficial@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" width="45"/>
+  </a>
 
-### Libros y Reseñas
-- `GET /nextread/libros` - Obtener todos los libros
-- `GET /nextread/libro/:id` - Obtener detalles de libro
-- `GET /nextread/resenas/:idLibro` - Obtener reseñas de un libro
-- `POST /nextread/resena/:idLibro` - Crear reseña
-- `POST /nextread/resena/:id/like` - Dar like a una reseña
-- `DELETE /nextread/resena/:id/like` - Remover like
+  <a href="https://github.com/Renaaa189" target="_blank">
+    <img src="https://skillicons.dev/icons?i=github" width="45"/>
+  </a>
 
-### Notificaciones
-- `POST /nextread/notificaciones/marcar-leidas` - Marcar notificaciones como leídas
-- `GET /nextread/user/public/:id` - Obtener datos públicos de usuario
+</p>
 
-### Búsqueda
-- `GET /nextread/buscar` - Búsqueda general
-- `GET /nextread/tendencias` - Libros en tendencia
-- `GET /nextread/libros/por-decada` - Libros por década
 
----
-
-## 🔐 Autenticación y Autorización
-
-La aplicación utiliza **JWT (JSON Web Tokens)** para autenticación:
-
-1. Usuario se registra/loguea y recibe un token JWT
-2. El token se almacena en `localStorage`
-3. Cada petición autenticada incluye: `Authorization: Bearer <token>`
-4. El middleware `isAuth` valida el token
-5. El middleware `isAdmin` verifica permisos de administrador
-
----
-
-## 📊 Modelo de Base de Datos
-
-### Tablas Principales
-
-**Usuario**
-- id, nombre, apellido, correo, usuario, contrasena
-- rol (Admin/Usuario), fecha_nacimiento, activo
-- Géneros y autores preferidos
-- Listas de libros (leídos, favoritos, en lectura, para leer)
-- Notificaciones, logros, iconos, banners
-
-**Libro**
-- id, titulo, autor_id, sinopsis, portada
-- Géneros y décadas
-
-**Resena**
-- id, usuario_id, libro_id, puntuacion, comentario
-- likes, fecha, activo
-
-**ResenaLike**
-- id, resena_id, usuario_id (único por resena)
-
-**Seguidos_Seguidores**
-- id, remitente_id, destinatario_id, estado
-
-**Logro**
-- id, nombre, descripcion, icono
-
----
-
-## 🎨 Características de UX/UI
-
-- **Responsive Design** - Funciona en desktop, tablet y móvil
-- **Dark/Light Mode Compatible** - Diseño adaptable
-- **Animaciones Suaves** - Transiciones con Framer Motion
-- **Interfaz Intuitiva** - Fácil de navegar
-- **Notificaciones en Tiempo Real** - Modal con información actualizada
-- **Iconografía Clara** - Iconos de Lucide React
-- **Colores Coherentes** - Paleta de colores profesional
-
----
-
-## 🚦 Variables de Entorno (Backend)
-
-Crear archivo `.env` en la carpeta `api/`:
-
-```env
-DB_HOST=localhost
-DB_PORT=3306
-DB_USER=root
-DB_PASSWORD=tu_contraseña
-DB_NAME=nextread
-JWT_SECRET=tu_clave_secreta_jwt
-MAIL_USER=tu_email@gmail.com
-MAIL_PASSWORD=tu_contraseña_app
-```
-
----
-
-## 📈 Roadmap Futuro
-
-- [ ] Recomendaciones basadas en IA
-- [ ] Chat directo entre usuarios
-- [ ] Clubs de lectura
-- [ ] Integración con APIs de libros (Google Books, OpenLibrary)
-- [ ] Sistema de puntos y premios
-- [ ] Reportes de usuario
-- [ ] Dark mode toggle
-- [ ] Exportación de listas
-
----
-
-## 👥 Equipo
-
-Desarrollado por **Agustin Rivera, Alejo Guerra, Renata Gallucci, Sofia Power, Carolina Mendez**
-
----
-
-## 📧 Contacto
-
-Para preguntas, sugerencias o reportar bugs:
-- Email: [tu_nextreadoficial@gmail.com](mailto:nextreadoficial@gmail.com)
-- GitHub: [@AlejoGuerraa](https://github.com/AlejoGuerraa)
-
----
-
-**¡Gracias por usar NextRead! Esperamos que disfrutes la experiencia de descubrir nuevos libros y conectar con otros lectores apasionados.** 📚✨
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:6366f1&height=65&section=footer"/>
+</p>
